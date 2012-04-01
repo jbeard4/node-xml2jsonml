@@ -1,0 +1,40 @@
+{
+	"name": "xml2jsonml",
+	"version": "0.0.1",
+	"description": "Converts XML to JsonML.",
+	"keywords": [
+		"xml",
+		"jsonml"
+	],
+	"maintainers": [{
+		"name": "Jacob Beard",
+		"email": "jbeard4@cs.mcgill.ca",
+		"url": "http://echo-flow.com"
+	}],
+	"bugs": {
+		"email": "jbeard4@cs.mcgill.ca",
+		"url": "https://github.com/jbeard4/node-xml2jsonml/issues"
+	},
+	"licenses": [
+		{
+			"type": "Apache-2.0"
+		}
+	],
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/jbeard4/node-xml2jsonml.git"
+		}
+	],
+	"implements": [
+		"http://jsonml.org/"
+	],
+	"dependencies": {
+		 "node-xml" : "git://github.com/jbeard4/node-xml.git"
+	},
+	"engines" : { "node" : ">=0.4.7" },
+	"bin": {
+		"xml2jsonml" : "./lib/jsonml.js"
+	},
+	"main": "./lib/jsonml"
+}
